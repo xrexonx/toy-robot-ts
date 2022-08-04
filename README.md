@@ -1,4 +1,5 @@
 # Toy Robot Simulator
+Toy robot simulator written in NodeJS Typescript
 
 ## Table of contents:
 
@@ -123,3 +124,8 @@ npm run start
 ```bash
 npm run test
 ```
+![Test Coverage Screenshots](https://raw.githubusercontent.com/xrexonx/toy-robot-ts/main/test-coverage.png)
+
+
+## Thankyou,
+[Rexon A. De los Reyes](https://www.linkedin.com/in/xrexonx/)

@@ -1,6 +1,5 @@
 import { Robot } from "../../src/robot";
 import { Table, validCoordinate } from "../../src/table";
-import chalk from "chalk";
 
 describe('Table test suites', () => {
 
@@ -38,7 +37,6 @@ describe('Table test suites', () => {
         })
 
         it('should return false when given coordinate is not valid',() => {
-
             robot.coordinate.x = 7
             robot.coordinate.y = 19
             const valid = validCoordinate(robot.coordinate, table)

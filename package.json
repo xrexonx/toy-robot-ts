@@ -1,7 +1,7 @@
 {
   "name": "toy-robot-ts",
   "version": "0.0.1",
-  "description": "",
+  "description": "Toy robot simulator",
   "main": "./bin/src/robot.js",
   "scripts": {
     "build": "npx tsc",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/xrexonx/toy-robot-ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rexon A. De los Reyes",
   "license": "ISC",
   "dependencies": {
     "@types/chalk": "^2.2.0",

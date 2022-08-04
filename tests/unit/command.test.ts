@@ -1,10 +1,10 @@
 import { validateCommand } from "../../src/commands/validator";
 import chalk from "chalk";
-import {place} from "../../src/commands/place";
-import {Robot} from "../../src/robot";
-import {Table} from "../../src/table";
-import {move} from "../../src/commands/move";
-import {turn} from "../../src/commands/turn";
+import { place } from "../../src/commands/place";
+import { Robot } from "../../src/robot";
+import { Table } from "../../src/table";
+import { move } from "../../src/commands/move";
+import { turn } from "../../src/commands/turn";
 
 
 describe('Commands test suites', () => {

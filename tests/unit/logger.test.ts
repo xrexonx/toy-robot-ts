@@ -1,5 +1,5 @@
-import Logger from "../../src/util/logger";
 import chalk from "chalk";
+import Logger from "../../src/util/logger";
 
 describe('Logger test suites', () => {
 

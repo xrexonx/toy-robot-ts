@@ -1,0 +1,35 @@
+{
+  "name": "toy-robot-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./bin/src/robot.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./bin/src/robot.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q ./bin/src/robot.js\"",
+    "test": "rm -rf ./coverage && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.0.6",
+    "concurrently": "^7.3.0",
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19",
+    "ts-jest": "^28.0.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "webpack-babel-jest": "^1.0.4"
+  }
+}

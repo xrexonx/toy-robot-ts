@@ -45,16 +45,6 @@ describe('Table test suites', () => {
             expect(valid).toEqual(false)
         })
 
-        // it('should Invalid coordinates message',() => {
-        //     console.log = jest.fn();
-        //     robot.coordinate.x = 7
-        //     robot.coordinate.y = 19
-        //     const valid = validCoordinate(robot.coordinate, table)
-        //     if (!valid) {
-        //         const message = chalk.white.bgRed('Invalid coordinates, this will make the robot fall')
-        //         expect(console.log).toHaveBeenCalledWith(message);
-        //     }
-        // })
     })
 
 

@@ -17,12 +17,12 @@ export const validateCommand = (initialValue: number, command: string): boolean 
 
     // validate first command
     if (initialValue === 0 && notValidFirstCommand(command)) {
-        Logger.error('First command should be place')
+        Logger.error('First command should be PLACE <x-coordinate>,<y-coordinate>,<valid-direction>')
         isValid = false
     }
 
     // validate command
-    if (notValidCommand(command)) {
+    if (initialValue !== 0 && notValidCommand(command)) {
         Logger.error('Invalid Command')
         isValid = false
     }

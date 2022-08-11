@@ -45,7 +45,7 @@ describe('Commands test suites', () => {
         it('should display First command should be place when user input invalid first command', () => {
             console.log = jest.fn();
             validateCommand(0, "MOVE")
-            const message = chalk.white.bgRed('First command should be place')
+            const message = chalk.white.bgRed('First command should be PLACE <x-coordinate>,<y-coordinate>,<valid-direction>')
             expect(console.log).toHaveBeenCalledWith(message);
         });
 
